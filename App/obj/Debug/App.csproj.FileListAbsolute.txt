@@ -6,3 +6,11 @@ C:\Users\user\source\repos\TestLib\App\obj\Debug\App.csproj.SuggestedBindingRedi
 C:\Users\user\source\repos\TestLib\App\obj\Debug\App.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\TestLib\App\obj\Debug\App.exe
 C:\Users\user\source\repos\TestLib\App\obj\Debug\App.pdb
+E:\philips-advance-csharp-july-2022\App\bin\Debug\App.exe.config
+E:\philips-advance-csharp-july-2022\App\bin\Debug\App.exe
+E:\philips-advance-csharp-july-2022\App\bin\Debug\App.pdb
+E:\philips-advance-csharp-july-2022\App\obj\Debug\App.csproj.AssemblyReference.cache
+E:\philips-advance-csharp-july-2022\App\obj\Debug\App.csproj.SuggestedBindingRedirects.cache
+E:\philips-advance-csharp-july-2022\App\obj\Debug\App.csproj.CoreCompileInputs.cache
+E:\philips-advance-csharp-july-2022\App\obj\Debug\App.exe
+E:\philips-advance-csharp-july-2022\App\obj\Debug\App.pdb

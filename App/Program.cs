@@ -26,7 +26,16 @@ namespace App
     }
   
     internal class Program
-    {
+    { //pure function
+        //output is predictable (CheckStringStartwith_s("s).....n number times)
+        //cache (dictionary,db,file) result
+        //high degree of Parallelism
+        internal static bool CheckStringStartwith_s(string item)
+        {
+            return item.StartsWith("s");
+
+
+        }
         static void Main(string[] args)
         {
             string[] names = { "Philips", "Siemens", "Cerner", "Apple", "Oracle" };
@@ -39,7 +48,7 @@ namespace App
             }
             strategy.StartsWith = "P";
 
-            FilterCommand _filterCommand = new FilterCommand(strategy.Predicate);
+            FilterCommand _filterCommand = new FilterCommand(Program.CheckStringStartwith_s);
            result= Filter(names, _filterCommand);
             
             foreach (string item in result)
