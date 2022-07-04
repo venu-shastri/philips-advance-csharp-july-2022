@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Pic.Linq;
 namespace App
 {
-    internal delegate bool FilterCommand(string item);
+    //internal delegate bool FilterCommand<TSource>(TSource item);
     interface IFilterStrategy
     {
         bool Predicate(string item);
@@ -26,13 +26,15 @@ namespace App
     }
   
     internal class Program
-    { //pure function
-        //output is predictable (CheckStringStartwith_s("s).....n number times)
-        //cache (dictionary,db,file) result
-        //high degree of Parallelism
-        internal static bool CheckStringStartwith_s(string item)
+    {
+        internal static Func<string,bool> CheckStringStartwith_Any(string startsWith)
         {
-            return item.StartsWith("s");
+            //function inside another function (Closure)
+            Func<string, bool> predicate = (string item) =>
+            {
+                return item.StartsWith(startsWith);
+            };
+            return predicate;
 
 
         }
@@ -40,16 +42,10 @@ namespace App
         {
             string[] names = { "Philips", "Siemens", "Cerner", "Apple", "Oracle" };
             //names.Where(s => s.StartsWith("s")); // > 3.0 
-            CheckStringStartsWithAny strategy = new CheckStringStartsWithAny() { StartsWith="S"};
-           List<string> result= Filter(names,strategy);
-            foreach(string item in result)
-            {
-                Console.WriteLine(item);    
-            }
-            strategy.StartsWith = "P";
 
-            FilterCommand _filterCommand = new FilterCommand(Program.CheckStringStartwith_s);
-           result= Filter(names, _filterCommand);
+
+            Func<string, bool> _filterCommand = Program.CheckStringStartwith_Any("S");
+          IEnumerable<string> result=Pic.Linq.Enumerable.Filter<string>(names, _filterCommand);
             
             foreach (string item in result)
             {
@@ -57,39 +53,16 @@ namespace App
             }
 
 
+            Pic.Linq.Enumerable.Filter<string>(names,Program.CheckStringStartwith_Any("P"));
+            Pic.Linq.Enumerable.Filter<string>(names, (string item) => { return item.StartsWith("P"); });
+            Pic.Linq.Enumerable.Filter<string>(names, (string item) => { return item.StartsWith("S"); });
+            Pic.Linq.Enumerable.Filter<string>(names, (string item) => { return item.StartsWith("C"); });
+            System.Linq.Enumerable.Where<string>(names, Program.CheckStringStartwith_Any("PC"));
+            names.Filter<string>(Program.CheckStringStartwith_Any("C"));
         }
 
-        static List<string> Filter(string[] source,IFilterStrategy logic )
-        {
-            //find name from names where name endswith "s"
-            List<string> resultAggregator = new List<string>();
-
-            for (int i = 0; i < source.Length; i++)
-            {
-                if (logic.Predicate(source[i]))
-                {
-                    resultAggregator.Add(source[i]);
-                }
-            }
-            return resultAggregator;
-        }
-
-        static List<string> Filter(string[] source, FilterCommand logic)
-        {
-            //find name from names where name endswith "s"
-            List<string> resultAggregator = new List<string>();
-
-            for (int i = 0; i < source.Length; i++)
-            {
-                //Invke Command
-                if (logic.Invoke(source[i]))
-                {
-                    resultAggregator.Add(source[i]);
-                }
-            }
-            return resultAggregator;
-        }
-
+       
+      
 
 
     }

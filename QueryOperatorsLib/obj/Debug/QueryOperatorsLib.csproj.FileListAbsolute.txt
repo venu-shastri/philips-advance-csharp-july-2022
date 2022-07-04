@@ -1,0 +1,6 @@
+E:\philips-advance-csharp-july-2022\QueryOperatorsLib\bin\Debug\QueryOperatorsLib.dll
+E:\philips-advance-csharp-july-2022\QueryOperatorsLib\bin\Debug\QueryOperatorsLib.pdb
+E:\philips-advance-csharp-july-2022\QueryOperatorsLib\obj\Debug\QueryOperatorsLib.csproj.AssemblyReference.cache
+E:\philips-advance-csharp-july-2022\QueryOperatorsLib\obj\Debug\QueryOperatorsLib.csproj.CoreCompileInputs.cache
+E:\philips-advance-csharp-july-2022\QueryOperatorsLib\obj\Debug\QueryOperatorsLib.dll
+E:\philips-advance-csharp-july-2022\QueryOperatorsLib\obj\Debug\QueryOperatorsLib.pdb

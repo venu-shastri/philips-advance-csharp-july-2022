@@ -14,3 +14,6 @@ E:\philips-advance-csharp-july-2022\App\obj\Debug\App.csproj.SuggestedBindingRed
 E:\philips-advance-csharp-july-2022\App\obj\Debug\App.csproj.CoreCompileInputs.cache
 E:\philips-advance-csharp-july-2022\App\obj\Debug\App.exe
 E:\philips-advance-csharp-july-2022\App\obj\Debug\App.pdb
+E:\philips-advance-csharp-july-2022\App\bin\Debug\QueryOperatorsLib.dll
+E:\philips-advance-csharp-july-2022\App\bin\Debug\QueryOperatorsLib.pdb
+E:\philips-advance-csharp-july-2022\App\obj\Debug\App.csproj.CopyComplete

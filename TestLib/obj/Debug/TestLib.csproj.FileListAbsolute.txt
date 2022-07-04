@@ -4,3 +4,9 @@ C:\Users\user\source\repos\TestLib\TestLib\obj\Debug\TestLib.csproj.AssemblyRefe
 C:\Users\user\source\repos\TestLib\TestLib\obj\Debug\TestLib.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\TestLib\TestLib\obj\Debug\TestLib.dll
 C:\Users\user\source\repos\TestLib\TestLib\obj\Debug\TestLib.pdb
+E:\philips-advance-csharp-july-2022\TestLib\bin\Debug\TestLib.dll
+E:\philips-advance-csharp-july-2022\TestLib\bin\Debug\TestLib.pdb
+E:\philips-advance-csharp-july-2022\TestLib\obj\Debug\TestLib.csproj.AssemblyReference.cache
+E:\philips-advance-csharp-july-2022\TestLib\obj\Debug\TestLib.csproj.CoreCompileInputs.cache
+E:\philips-advance-csharp-july-2022\TestLib\obj\Debug\TestLib.dll
+E:\philips-advance-csharp-july-2022\TestLib\obj\Debug\TestLib.pdb
