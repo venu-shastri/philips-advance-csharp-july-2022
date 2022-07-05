@@ -1,0 +1,11 @@
+E:\philips-advance-csharp-july-2022\ClentApp\obj\Debug\ClentApp.csproj.AssemblyReference.cache
+E:\philips-advance-csharp-july-2022\ClentApp\obj\Debug\ClentApp.csproj.SuggestedBindingRedirects.cache
+E:\philips-advance-csharp-july-2022\ClentApp\obj\Debug\ClentApp.csproj.CoreCompileInputs.cache
+E:\philips-advance-csharp-july-2022\ClentApp\bin\Debug\ClentApp.exe.config
+E:\philips-advance-csharp-july-2022\ClentApp\bin\Debug\ClentApp.exe
+E:\philips-advance-csharp-july-2022\ClentApp\bin\Debug\ClentApp.pdb
+E:\philips-advance-csharp-july-2022\ClentApp\bin\Debug\PersistanceFx.dll
+E:\philips-advance-csharp-july-2022\ClentApp\bin\Debug\PersistanceFx.pdb
+E:\philips-advance-csharp-july-2022\ClentApp\obj\Debug\ClentApp.csproj.CopyComplete
+E:\philips-advance-csharp-july-2022\ClentApp\obj\Debug\ClentApp.exe
+E:\philips-advance-csharp-july-2022\ClentApp\obj\Debug\ClentApp.pdb

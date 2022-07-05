@@ -1,0 +1,6 @@
+E:\philips-advance-csharp-july-2022\PersistanceFx\bin\Debug\PersistanceFx.dll
+E:\philips-advance-csharp-july-2022\PersistanceFx\bin\Debug\PersistanceFx.pdb
+E:\philips-advance-csharp-july-2022\PersistanceFx\obj\Debug\PersistanceFx.csproj.AssemblyReference.cache
+E:\philips-advance-csharp-july-2022\PersistanceFx\obj\Debug\PersistanceFx.csproj.CoreCompileInputs.cache
+E:\philips-advance-csharp-july-2022\PersistanceFx\obj\Debug\PersistanceFx.dll
+E:\philips-advance-csharp-july-2022\PersistanceFx\obj\Debug\PersistanceFx.pdb

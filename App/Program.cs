@@ -58,7 +58,7 @@ namespace App
             Pic.Linq.Enumerable.Filter<string>(names, (string item) => { return item.StartsWith("S"); });
             Pic.Linq.Enumerable.Filter<string>(names, (string item) => { return item.StartsWith("C"); });
             System.Linq.Enumerable.Where<string>(names, Program.CheckStringStartwith_Any("PC"));
-            names.Filter<string>(Program.CheckStringStartwith_Any("C"));
+            //names.Filter<string>(Program.CheckStringStartwith_Any("C"));
         }
 
        
