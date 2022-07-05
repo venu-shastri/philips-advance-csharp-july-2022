@@ -37,6 +37,7 @@ namespace PersistanceFx
         {
             var targetTypeAttribute = source.GetType().GetCustomAttributes(typeof(TargetPersistaneTypeAttribute), true).FirstOrDefault() as TargetPersistaneTypeAttribute;
             PersistanceType _targetFormat = targetTypeAttribute.format;
+            Console.WriteLine($"Target format is : {_targetFormat} ");
             switch (_targetFormat)
             {
                 case PersistanceType.XML: XMLPersister _persister = new XMLPersister();
