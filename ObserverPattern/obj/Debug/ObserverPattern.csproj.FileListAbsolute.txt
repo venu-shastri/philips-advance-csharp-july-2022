@@ -1,0 +1,8 @@
+E:\philips-advance-csharp-july-2022\ObserverPattern\bin\Debug\ObserverPattern.exe.config
+E:\philips-advance-csharp-july-2022\ObserverPattern\bin\Debug\ObserverPattern.exe
+E:\philips-advance-csharp-july-2022\ObserverPattern\bin\Debug\ObserverPattern.pdb
+E:\philips-advance-csharp-july-2022\ObserverPattern\obj\Debug\ObserverPattern.csproj.AssemblyReference.cache
+E:\philips-advance-csharp-july-2022\ObserverPattern\obj\Debug\ObserverPattern.csproj.SuggestedBindingRedirects.cache
+E:\philips-advance-csharp-july-2022\ObserverPattern\obj\Debug\ObserverPattern.csproj.CoreCompileInputs.cache
+E:\philips-advance-csharp-july-2022\ObserverPattern\obj\Debug\ObserverPattern.exe
+E:\philips-advance-csharp-july-2022\ObserverPattern\obj\Debug\ObserverPattern.pdb

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryOperatorsLib", "QueryOperatorsLib\QueryOperatorsLib.csproj", "{D13633C4-2771-4420-8C65-BE1E6269B8BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{B02C7623-AFD2-45F2-9653-24B893DA62C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D13633C4-2771-4420-8C65-BE1E6269B8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D13633C4-2771-4420-8C65-BE1E6269B8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D13633C4-2771-4420-8C65-BE1E6269B8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02C7623-AFD2-45F2-9653-24B893DA62C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02C7623-AFD2-45F2-9653-24B893DA62C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02C7623-AFD2-45F2-9653-24B893DA62C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02C7623-AFD2-45F2-9653-24B893DA62C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
