@@ -200,7 +200,7 @@ namespace MultiThreading
 
 
         }
-        private static void Main()
+        private static void Main1()
         {
             //PrepareBreakfast();
             // PrepareBreakFastaAsync();
