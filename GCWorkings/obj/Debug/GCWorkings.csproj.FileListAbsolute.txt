@@ -1,0 +1,8 @@
+E:\philips-advance-csharp-july-2022\GCWorkings\bin\Debug\GCWorkings.exe.config
+E:\philips-advance-csharp-july-2022\GCWorkings\bin\Debug\GCWorkings.exe
+E:\philips-advance-csharp-july-2022\GCWorkings\bin\Debug\GCWorkings.pdb
+E:\philips-advance-csharp-july-2022\GCWorkings\obj\Debug\GCWorkings.csproj.AssemblyReference.cache
+E:\philips-advance-csharp-july-2022\GCWorkings\obj\Debug\GCWorkings.csproj.SuggestedBindingRedirects.cache
+E:\philips-advance-csharp-july-2022\GCWorkings\obj\Debug\GCWorkings.csproj.CoreCompileInputs.cache
+E:\philips-advance-csharp-july-2022\GCWorkings\obj\Debug\GCWorkings.exe
+E:\philips-advance-csharp-july-2022\GCWorkings\obj\Debug\GCWorkings.pdb

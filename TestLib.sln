@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClentApp", "ClentApp\ClentA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreading", "MultiThreading\MultiThreading.csproj", "{2509DBB7-77C1-493A-94A0-C6B9B8BC383D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCWorkings", "GCWorkings\GCWorkings.csproj", "{33A478B2-A181-40EF-9C67-366A24859752}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{2509DBB7-77C1-493A-94A0-C6B9B8BC383D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2509DBB7-77C1-493A-94A0-C6B9B8BC383D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2509DBB7-77C1-493A-94A0-C6B9B8BC383D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A478B2-A181-40EF-9C67-366A24859752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A478B2-A181-40EF-9C67-366A24859752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A478B2-A181-40EF-9C67-366A24859752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A478B2-A181-40EF-9C67-366A24859752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
