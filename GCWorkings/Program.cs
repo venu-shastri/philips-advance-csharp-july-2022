@@ -17,20 +17,19 @@ namespace GCWorkings
     internal class Program
     {
         static A globalRef = null;
-        static void Main(string[] args)
+        static void _Main(string[] args)
         {
             GcTest();
+            GC.Collect();
+            globalRef = null;
+            GC.Collect(0);
+            GC.Collect(1);
+            GC.Collect();
         }
         static void GcTest()
         {
             A obj = new A();// SOH ->Gen 0;
-            //Console.WriteLine(GC.GetGeneration(obj));
-            //GC.Collect();//Request
-            //Console.WriteLine(GC.GetGeneration(obj));
-            //GC.Collect();
-            //Console.WriteLine(GC.GetGeneration(obj));
-            //GC.Collect();
-            //Console.WriteLine(GC.GetGeneration(obj));
+            
             globalRef = obj;
             obj = null; 
             GC.Collect();
