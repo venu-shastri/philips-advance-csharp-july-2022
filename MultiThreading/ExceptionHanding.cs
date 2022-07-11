@@ -51,7 +51,7 @@ namespace MultiThreading
                                                       task1.Status);
         }
 
-        static  void Main()
+        static  void Main_()
         {
             
             Task _t1 = new Task(() =>

@@ -18,7 +18,7 @@ namespace GCWorkings.ResourceMgmt
         public ResourceState State = ResourceState.FREE;
 
     }
-    public class A
+    public class A:IDisposable
     {
 
         public static System.Threading.AutoResetEvent _handle = new System.Threading.AutoResetEvent(false);
@@ -52,6 +52,21 @@ namespace GCWorkings.ResourceMgmt
             }
 
         }
+        public void Dispose() {
+            Console.WriteLine($"Resource Released By {System.Threading.Thread.CurrentThread.ManagedThreadId} Using Dispose Method");
+            ReleaseResurce();
+            GC.SuppressFinalize(this);
+        }
+        //finalize
+        ~A()
+        {
+            Console.WriteLine($"Resource Released By {System.Threading.Thread.CurrentThread.ManagedThreadId} Using Finalize Method");
+            ReleaseResurce();
+        }
+        void ReleaseResurce()
+        {
+            _handle.Set();
+        }
     }
 
     class _Program
@@ -59,14 +74,28 @@ namespace GCWorkings.ResourceMgmt
         static void Main()
         {
             new System.Threading.Thread(Client).Start();
-            new System.Threading.Thread(Client).Start();
+           // new System.Threading.Thread(Client).Start();
         }
         static void Client()
         {
-            A obj = null;
-            obj = new A();
-            obj.UseResource();
-            obj = null;
+            //A obj = null;
+            //try
+            //{
+            //    obj = new A();
+            //    obj.UseResource();
+            //}
+            //finally
+            //{
+            //    if (obj is IDisposable)
+            //    {
+            //        obj.Dispose();
+            //    }
+            //}
+            //obj = null;
+            using(A obj=new A())
+            {
+                obj.UseResource();
+            }
             GC.Collect();
 
         }

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assignment.cs" />
     <Compile Include="BreakFastDemo.cs" />
     <Compile Include="ExceptionHanding.cs" />
     <Compile Include="Program.cs" />
