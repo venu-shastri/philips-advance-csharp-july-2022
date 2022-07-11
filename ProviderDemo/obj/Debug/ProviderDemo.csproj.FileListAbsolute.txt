@@ -1,0 +1,8 @@
+E:\philips-advance-csharp-july-2022\ProviderDemo\bin\Debug\ProviderDemo.exe.config
+E:\philips-advance-csharp-july-2022\ProviderDemo\bin\Debug\ProviderDemo.exe
+E:\philips-advance-csharp-july-2022\ProviderDemo\bin\Debug\ProviderDemo.pdb
+E:\philips-advance-csharp-july-2022\ProviderDemo\obj\Debug\ProviderDemo.csproj.AssemblyReference.cache
+E:\philips-advance-csharp-july-2022\ProviderDemo\obj\Debug\ProviderDemo.csproj.SuggestedBindingRedirects.cache
+E:\philips-advance-csharp-july-2022\ProviderDemo\obj\Debug\ProviderDemo.csproj.CoreCompileInputs.cache
+E:\philips-advance-csharp-july-2022\ProviderDemo\obj\Debug\ProviderDemo.exe
+E:\philips-advance-csharp-july-2022\ProviderDemo\obj\Debug\ProviderDemo.pdb

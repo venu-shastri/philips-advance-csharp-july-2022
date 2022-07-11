@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33A478B2-A181-40EF-9C67-366A24859752}</ProjectGuid>
+    <ProjectGuid>{401401E8-094F-4DE6-876F-7ED7E03F2A03}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GCWorkings</RootNamespace>
-    <AssemblyName>GCWorkings</AssemblyName>
+    <RootNamespace>ProviderDemo</RootNamespace>
+    <AssemblyName>ProviderDemo</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,11 +45,10 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ResourceMgmt.cs" />
-    <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Patients.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
