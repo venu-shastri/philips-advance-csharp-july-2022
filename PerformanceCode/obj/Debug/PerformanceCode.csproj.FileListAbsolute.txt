@@ -1,0 +1,8 @@
+E:\philips-advance-csharp-july-2022\PerformanceCode\bin\Debug\PerformanceCode.exe.config
+E:\philips-advance-csharp-july-2022\PerformanceCode\bin\Debug\PerformanceCode.exe
+E:\philips-advance-csharp-july-2022\PerformanceCode\bin\Debug\PerformanceCode.pdb
+E:\philips-advance-csharp-july-2022\PerformanceCode\obj\Debug\PerformanceCode.csproj.AssemblyReference.cache
+E:\philips-advance-csharp-july-2022\PerformanceCode\obj\Debug\PerformanceCode.csproj.SuggestedBindingRedirects.cache
+E:\philips-advance-csharp-july-2022\PerformanceCode\obj\Debug\PerformanceCode.csproj.CoreCompileInputs.cache
+E:\philips-advance-csharp-july-2022\PerformanceCode\obj\Debug\PerformanceCode.exe
+E:\philips-advance-csharp-july-2022\PerformanceCode\obj\Debug\PerformanceCode.pdb

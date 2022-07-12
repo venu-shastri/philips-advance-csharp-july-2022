@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCWorkings", "GCWorkings\GC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProviderDemo", "ProviderDemo\ProviderDemo.csproj", "{401401E8-094F-4DE6-876F-7ED7E03F2A03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceCode", "PerformanceCode\PerformanceCode.csproj", "{ECA53830-DFE3-4C32-A2D4-F3CB71F8E898}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{401401E8-094F-4DE6-876F-7ED7E03F2A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{401401E8-094F-4DE6-876F-7ED7E03F2A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{401401E8-094F-4DE6-876F-7ED7E03F2A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA53830-DFE3-4C32-A2D4-F3CB71F8E898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA53830-DFE3-4C32-A2D4-F3CB71F8E898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA53830-DFE3-4C32-A2D4-F3CB71F8E898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA53830-DFE3-4C32-A2D4-F3CB71F8E898}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
