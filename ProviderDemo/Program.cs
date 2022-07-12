@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Dynamic;
 
 namespace ProviderDemo
 {
@@ -24,23 +25,30 @@ namespace ProviderDemo
             List<PatientDataModel> list = new List<PatientDataModel>();
             //select all the patients where location="blr"
             System.IO.StreamReader _r = new System.IO.StreamReader("..//..//Patients.csv");
-            string header = _r.ReadLine();
-            while (!_r.EndOfStream)
+            try
             {
-
-                string line = _r.ReadLine();
-                string[] lineContent = line.Split(',');
-                list.Add(new PatientDataModel()
+                string header = _r.ReadLine();
+                while (!_r.EndOfStream)
                 {
-                    Mrn = lineContent[0],
-                    Name = lineContent[1],
-                    Location = lineContent[2],
-                    Age = Int32.Parse(lineContent[3])
-                });
-                
-                
+
+                    string line = _r.ReadLine();
+                    string[] lineContent = line.Split(',');
+                    list.Add(new PatientDataModel()
+                    {
+                        Mrn = lineContent[0],
+                        Name = lineContent[1],
+                        Location = lineContent[2],
+                        Age = Int32.Parse(lineContent[3])
+                    });
+
+
+                }
             }
-            _r.Close();
+            finally
+            {
+                _r.Close();
+            }
+            
             var result = list.Where((p) => p.Location == "blr");
             foreach (var item in result)
             {
@@ -48,4 +56,31 @@ namespace ProviderDemo
             }
         }
     }
+
+    class ElasticType:DynamicObject
+    {
+        Dictionary<string, object> _stateBag = new Dictionary<string, object>();
+        
+        //set accessor
+        public override bool TrySetMember(SetMemberBinder binder, object value)
+        {
+            _stateBag[binder.Name] = value;
+            return true;
+        }
+
+        //get accessor
+        public override bool TryGetMember(GetMemberBinder binder, out object result)
+        {
+            result = null;
+            if (this._stateBag.ContainsKey(binder.Name))
+            {
+                result = this._stateBag[binder.Name];
+                return true;
+            }
+            return false;
+        }
+
+    }
+
+   
 }
