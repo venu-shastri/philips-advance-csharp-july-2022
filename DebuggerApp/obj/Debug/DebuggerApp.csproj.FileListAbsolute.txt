@@ -1,0 +1,13 @@
+E:\philips-advance-csharp-july-2022\DebuggerApp\bin\Debug\DebuggerApp.exe.config
+E:\philips-advance-csharp-july-2022\DebuggerApp\bin\Debug\DebuggerApp.exe
+E:\philips-advance-csharp-july-2022\DebuggerApp\bin\Debug\DebuggerApp.pdb
+E:\philips-advance-csharp-july-2022\DebuggerApp\obj\Debug\DebuggerApp.csproj.AssemblyReference.cache
+E:\philips-advance-csharp-july-2022\DebuggerApp\obj\Debug\DebuggerApp.csproj.SuggestedBindingRedirects.cache
+E:\philips-advance-csharp-july-2022\DebuggerApp\obj\Debug\DebuggerApp.csproj.CoreCompileInputs.cache
+E:\philips-advance-csharp-july-2022\DebuggerApp\obj\Debug\DebuggerApp.exe
+E:\philips-advance-csharp-july-2022\DebuggerApp\obj\Debug\DebuggerApp.pdb
+E:\philips-advance-csharp-july-2022\DebuggerApp\bin\Debug\ApiLib.dll
+E:\philips-advance-csharp-july-2022\DebuggerApp\bin\Debug\ApiLib.pdb
+E:\philips-advance-csharp-july-2022\DebuggerApp\obj\Debug\DebuggerApp.csproj.CopyComplete
+E:\philips-advance-csharp-july-2022\DebuggerApp\bin\Debug\ApiContractLib.dll
+E:\philips-advance-csharp-july-2022\DebuggerApp\bin\Debug\ApiContractLib.pdb

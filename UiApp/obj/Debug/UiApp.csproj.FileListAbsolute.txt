@@ -1,0 +1,11 @@
+E:\philips-advance-csharp-july-2022\UiApp\bin\Debug\UiApp.exe.config
+E:\philips-advance-csharp-july-2022\UiApp\bin\Debug\UiApp.exe
+E:\philips-advance-csharp-july-2022\UiApp\bin\Debug\UiApp.pdb
+E:\philips-advance-csharp-july-2022\UiApp\obj\Debug\UiApp.csproj.AssemblyReference.cache
+E:\philips-advance-csharp-july-2022\UiApp\obj\Debug\UiApp.csproj.SuggestedBindingRedirects.cache
+E:\philips-advance-csharp-july-2022\UiApp\obj\Debug\UiApp.Form1.resources
+E:\philips-advance-csharp-july-2022\UiApp\obj\Debug\UiApp.Properties.Resources.resources
+E:\philips-advance-csharp-july-2022\UiApp\obj\Debug\UiApp.csproj.GenerateResource.cache
+E:\philips-advance-csharp-july-2022\UiApp\obj\Debug\UiApp.csproj.CoreCompileInputs.cache
+E:\philips-advance-csharp-july-2022\UiApp\obj\Debug\UiApp.exe
+E:\philips-advance-csharp-july-2022\UiApp\obj\Debug\UiApp.pdb

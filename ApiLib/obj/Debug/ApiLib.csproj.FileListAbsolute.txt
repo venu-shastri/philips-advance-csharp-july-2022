@@ -1,0 +1,9 @@
+E:\philips-advance-csharp-july-2022\ApiLib\bin\Debug\ApiLib.dll
+E:\philips-advance-csharp-july-2022\ApiLib\bin\Debug\ApiLib.pdb
+E:\philips-advance-csharp-july-2022\ApiLib\obj\Debug\ApiLib.csproj.AssemblyReference.cache
+E:\philips-advance-csharp-july-2022\ApiLib\obj\Debug\ApiLib.csproj.CoreCompileInputs.cache
+E:\philips-advance-csharp-july-2022\ApiLib\obj\Debug\ApiLib.dll
+E:\philips-advance-csharp-july-2022\ApiLib\obj\Debug\ApiLib.pdb
+E:\philips-advance-csharp-july-2022\ApiLib\bin\Debug\ApiContractLib.dll
+E:\philips-advance-csharp-july-2022\ApiLib\bin\Debug\ApiContractLib.pdb
+E:\philips-advance-csharp-july-2022\ApiLib\obj\Debug\ApiLib.csproj.CopyComplete
